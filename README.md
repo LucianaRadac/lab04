@@ -17,7 +17,7 @@ public class IncreasedProduction {
                 production = production*Math.pow(1.0 + rate, month);                                
                 
                 //displays the monthly total parts produced
-                if( month < 25 )
+                if( month < 25 )// daca ai pune aceasta conditie in for ai scapa de if else condition
                 {
                     //Displays monthly total
                     System.out.println("  " + month + "      " + String.format("%.2f",production) + "\n");
